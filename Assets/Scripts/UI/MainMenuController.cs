@@ -29,7 +29,12 @@ public class MainMenuController : MonoBehaviour
         learningAIButton.onClick.AddListener(PlayLearning);
         leaderboardButton.onClick.AddListener(OpenLeaderboard);
         howToPlayButton.onClick.AddListener(OpenHowToPlay);
+#if UNITY_WEBGL
+        // A browser page cannot be quit from inside the game, so the button is removed (the menu reflows).
+        quitButton.gameObject.SetActive(false);
+#else
         quitButton.onClick.AddListener(Quit);
+#endif
 
         if (EventSystem.current != null)
             EventSystem.current.SetSelectedGameObject(playClassicButton.gameObject);
