@@ -1,0 +1,63 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures can get huge
+[Mm]emoryCaptures/
+
+# Asset meta data should NOT be ignored
+# *.meta
+
+# IDE / editor
+.vscode/
+.idea/
+.vs/
+
+# Visual Studio / Rider
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity generated solution files
+*.unityproj
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crash reports
+sysinfo.txt
+
+# Unity recovery
+Assets/_Recovery/
+
+# Build/debug output
+*_BurstDebugInformation_DoNotShip/
+
+# Python environment if still present
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ML-Agents training output
+results/
+runs/
+
+# Optional local scratch/test output
+scratchpad/
